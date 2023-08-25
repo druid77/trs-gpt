@@ -1,5 +1,7 @@
 # "TRS-GPT" : ChatGPT from a TRS-80 Model III Computer built in 1981
 
+If you want to skip ahead, and simply see the final product, then [CLICK HERE](https://youtu.be/hENzaGMYdL8)
+
 &nbsp;&nbsp;&nbsp;When I was a kid, around 1984 or 1985 I got an Atari 800XL, 
 
 <img src="images/Atari-800XL.jpeg" width="100%"> *Atari 800XL, picture courtesy Wikipedia.*
@@ -200,5 +202,4 @@ So I realized, I had to modify the BASIC program to have loop that would:
 
 After these modifications, I was able to interact with ChatGPT on my TRS-80!
 
-<VIDEO GOES HERE>
-
+# [CLICK HERE TO WATCH THE FINAL WORKING SYSTEM!!](https://youtu.be/hENzaGMYdL8)
