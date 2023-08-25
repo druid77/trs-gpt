@@ -39,17 +39,17 @@ When I opened the box, and fired it up (at least the thing powered on), I quickl
 
 So I took apart the computer, and one-by-one de-soldered every key, disassembled each one, cleaned the contacts, put the key back together, and soldered the whole keyboard back together.
 
-<img src="/website/images/opened.png" width="100%"/>*The TRS-80, opened up*
+<img src="/website/images/opened.jpg" width="100%"/>*The TRS-80, opened up*
 <br/><br/>
-<img src="/website/images/keyboard-top-down-view.png" width="100%"/>*a key contact*
+<img src="/website/images/keyboard-top-down-view.jpg" width="100%"/>*a key contact*
 <br/><br/>
-<img src="/website/images/removing-keyboard-cover.png" width="100%"/>*disassembling the keyboard*
+<img src="/website/images/removing-keyboard-cover.jpg" width="100%"/>*disassembling the keyboard*
 <br/><br/>
-<img src="/website/images/cleaning-a-key.png" width="100%"/>*cleaning a key*
+<img src="/website/images/cleaning-a-key.jpg" width="100%"/>*cleaning a key*
 <br/><br/>
-<img src="/website/images/keyboard-contact.png" width="100%"/>*a key contact*
+<img src="/website/images/keyboard-contact.jpg" width="100%"/>*a key contact*
 <br/><br/>
-<img src="/website/images/soldering.png" width="100%"/>*soldering the keyboard back together*
+<img src="/website/images/soldering.jpg" width="100%"/>*soldering the keyboard back together*
 <br/><br/>
 
 After this, I had a working, beautiful TRS-80, with fully-functional keys!
