@@ -30,7 +30,7 @@ def do_open_ai_query(chat_input):
 
 def chat_with_gpt3(messages):
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model=OPENAI_MODEL,
         messages=messages
     )
     return response.choices[0].message['content']
