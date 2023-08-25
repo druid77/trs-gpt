@@ -54,10 +54,18 @@ So I took apart the computer, and one-by-one de-soldered every key, disassembled
 
 After this, I had a working, beautiful TRS-80, with fully-functional keys!
 
-<img src="/website/images/restoration-complete.png" width="100%"/>*shiny, brand-new, restored TRS-80 Model III!*
+<img src="/website/images/restoration-complete.jpg" width="100%"/>*shiny, brand-new, restored TRS-80 Model III!*
 <br/><br/>
 
-Then I realized that I didn’t even have a hard drive to store BASIC programs (or anything) on.  Should I track down and buy a TRS-80 floppy drive from someone on Ebay?  No, this is 2023, and I don’t trust floppy things!  I did some searches online, and found Ian Mavric, the “Australian TRS-80 Recycler”, and figured out I could get a FreHD module, which essentially allows one to plug an external board with a microSD card, into the serial ribbon cable input on the back of the TRS-80, which would emulate a hard drive.  Ian was selling the the “FreHD Clearly Superior Kit for M3/4”, which supposedly worked for my needs.  It was “clearly superior”, so it had to be the right choice for me 🙂.   Ian was really helpful, and after a few emails with him, and determining that my system actually had the needed 48K of RAM,
+Then I realized that I didn’t even have a hard drive to store BASIC programs (or anything) on.  Should I track down and buy a TRS-80 floppy drive from someone on Ebay?  No, this is 2023, and I don’t trust floppy things!  I did some searches online, and found Ian Mavric, the “Australian TRS-80 Recycler”, and figured out I could get a FreHD module, which essentially allows one to plug an external board with a microSD card, into the serial ribbon cable input on the back of the TRS-80, which would emulate a hard drive.  Ian was selling the the “FreHD Clearly Superior Kit for M3/4”, which supposedly worked for my needs.  It was “clearly superior”, so it had to be the right choice for me.
+
+<img src="/website/images/restoration-complete.jpg" width="100%"/>*shiny, brand-new, restored TRS-80 Model III!*
+<br/><br/>
+
+Ian was really helpful, and after a few emails with him, and determining that my system actually had the needed 48K of RAM, I hooked it up!
+I was now able to play games like Microchess 1.5 (copyright 1978)
+<img src="/website/images/chess2.jpg" width="100%"/>*shiny, brand-new, restored TRS-80 Model III!*
+<br/><br/>
 
 
 
