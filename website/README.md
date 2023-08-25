@@ -19,7 +19,7 @@ As I played games, I became curious about how they were made, and I discovered t
 &nbsp; 
 
 
-<a href="http://example.com/](https://www.youtube.com/watch?app=desktop&v=_vK84lvwQwo" target="_blank"><img src="/website/images/basic_yt_thumb.png"/></a>
+<a href="https://www.youtube.com/watch?app=desktop&v=_vK84lvwQwo" target="_blank"><img src="/website/images/basic_yt_thumb.png"/></a>
 
 
 Although only the basics of the language made sense to me, I got a kick out of painstakingly, manually typing in long programs that did cool things from my subscription to Antic Magazine:
