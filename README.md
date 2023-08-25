@@ -24,7 +24,7 @@ Although only the basics of the language made sense to me, I got a kick out of p
 &nbsp;  
 &nbsp; 
 
-But what I really wanted to write was an interactive program like Zork, but where I could chat with it, and it was able to hold an intelligent conversation with me.  In other words, it has always been my dream to have artificial general intelligence on my Atari.  Especially inspired by movies such as [War Games](https://www.imdb.com/title/tt0086567/):
+But what I really wanted to write was an interactive program like Zork, but where I could chat with it, and it would be able to hold an intelligent conversation with me.  In other words, it has always been my dream to have [artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence) on my Atari.  This goal was especially inspired by movies such as [War Games](https://www.imdb.com/title/tt0086567/):
 
 <img src="images/war-games.png" width="100%"/>*War Games Movie - 1983*
 <br/><br/>
@@ -33,15 +33,15 @@ Fast forward about 40 years…
 
 I’m now a middle-aged man with multiple degrees, working for NASA JPL.  For all of these years, I've kept alive the childhood dream of interacting (chatting) with the computer in an intelligent way.
 
-This year (2023) two things happened, that allowed me to “close the loop” on my childhood dream:
-- Something called [ChatGPT](https://openai.com/blog/chatgpt) became a thing
-- Someone at work gave me a free [TRS-80 Model III](http://www.trs-80.org/model-3/) (built in 1981) computer.
+This year, 2023, two things happened, that allowed me to “close the loop” on my childhood dream:
+- **Something called [ChatGPT](https://openai.com/blog/chatgpt) became a thing**
+- **Someone at work gave me a free [TRS-80 Model III](http://www.trs-80.org/model-3/) (built in 1981) computer**
 
-When I was a kid, I remember friends talking about the TRS-80, referring to it as the “trash 80”.  So my expectations weren’t that high, but hey I realized that it looked pretty retro, had about the same resolution as my old Atari 800XL, and it ran BASIC!  
+As a kid, I remember friends talking about the TRS-80, referring to it as the “trash 80”.  So my expectations weren’t that high, but I realized that it looked pretty retro, had about the same resolution as my old Atari 800XL, and it ran BASIC!  
 
 When I opened the box, and fired it up (at least the thing powered on), I quickly realized that only about 10% of the keys actually worked.
 
-So I took apart the computer, and one-by-one de-soldered every key, disassembled each one, cleaned the contacts, put the key back together, and soldered the whole keyboard back together.
+I proceeded to take apart the computer, and one-by-one de-soldered each key, disassembled the mechanisms in each one, cleaned the contacts, put the key back together, and soldered the whole keyboard back together.
 
 <img src="images/opened.jpg" width="100%"/>*The TRS-80, opened up*
 <br/><br/>
@@ -61,7 +61,7 @@ After this, I had a working, beautiful TRS-80, with fully-functional keys!
 <img src="images/restoration-complete.jpg" width="100%"/>*shiny, brand-new, restored TRS-80 Model III!*
 <br/><br/>
 
-Then I realized that I didn’t even have a hard drive to store BASIC programs (or anything) on.  Should I track down and buy a TRS-80 floppy drive from someone on Ebay?  No, this is 2023, and I don’t trust floppy things!  I did some searches online, and found Ian Mavric, the “Australian TRS-80 Recycler”, and figured out I could get a FreHD module, which essentially allows one to plug an external board with a microSD card, into the serial ribbon cable input on the back of the TRS-80, which would emulate a hard drive.  Ian was selling the the “FreHD Clearly Superior Kit for M3/4”, which supposedly worked for my needs.  It was “clearly superior”, so it had to be the right choice for me.   I ordered the kit.  I set it up, which also involved replacing a certain ROM chip.
+Then I realized that I didn’t even have a hard drive to store BASIC programs (or anything) on.  Should I track down and buy a TRS-80 floppy drive from someone on Ebay?  No, this is 2023, and I wanted to follow a more modern approach!  I did some searches online, and found Ian Mavric, the “Australian TRS-80 Recycler”, and figured out I could get a FreHD module, which essentially allows one to plug an external board with a microSD card, into the serial ribbon cable input on the back of the TRS-80, which would emulate a hard drive.  Ian was selling the the “FreHD Clearly Superior Kit for M3/4”, which supposedly worked for my needs.  It was “clearly superior”, so it had to be the right choice for me.   I ordered the kit, and set it up, which also involved replacing a certain ROM chip.
 
 <img src="images/fred-clearly.jpg" width="100%"/>*FreHD Clearly Superior Kit for M3/4!*
 <br/><br/>
@@ -81,40 +81,40 @@ https://github.com/apuder/TRS-IO
 <img src="images/trs-io-architecture.png" width="100%"/>*Overview of the TRS-IO, courtesy of [Arno Puder](https://github.com/apuder/TRS-IO)*
 <br/><br/>
 
-The TRS-IO promised to be a solution that would provide the capability to both store programs, and access the internet.  I could even take the micro-SD card that I had with my superior device, and and use it here.  So I ordered the TRS-IO from Arno Puder https://github.com/apuder, and swapped it in for my superior kit.
+The TRS-IO promised to be a solution that would provide the capability to both store programs, and access the internet.  I could even take the micro-SD card that I had with my superior device, and and use it here.  So I ordered the TRS-IO from [Arno Puder](https://github.com/apuder), and swapped it in for my superior kit.
 
 <img src="images/connecting-trs-io.jpg" width="100%"/>*Connecting and configuring the TRS-IO to use the WiFi*
 <br/><br/>
 
-After connecting it, and configuring it to connect to my Wifi, which took me a while to figure out, because, who knew, but I needed to actually connect the antenna, I was off to the races, and exploring some example programs in BASIC that connected to the whois server to make requests.  Arno provided some useful starter example code here.
+After connecting it, and configuring it to connect to my Wi-Fi, which took me a while to figure out, because, who knew, but I needed to actually connect the antenna, I was up and running, able to explore some example programs in BASIC that connected to the [WHOIS](https://www.iana.org/whois) server to make requests.  Arno provided some [super useful starter example code](https://github.com/apuder/TRS-IO/blob/master/examples/trs-nic/WHOIS.BAS) for this, that I was able to play around with to see how things work:
 
-https://github.com/apuder/TRS-IO/blob/master/examples/trs-nic/WHOIS.BAS
-
-In order to connect text queries entered on the TRS-80 to the OpenAI server, I first came up with a plan to implement an AWS lambda function, sitting behind an API Gateway that passed the query to OpenAI, then returned the response back the TRS-80. 
+In order to pass text queries entered on the TRS-80 to the OpenAI server, I first came up with a plan to implement an AWS lambda function, sitting behind an API Gateway that passed the query to OpenAI, then returned the response back the TRS-80. 
 
 ```
-TRS-80 (BASIC program) -->
+TRS-80 (BASIC client) -->
                            TRS-IO -->
                                       AWS API Gateway --> 
-                                                          AWS Lambda -->
+                                                          AWS Lambda
+                                                                     -->
                                                                          OpenAI
                                                                      <--
                                                       <-- AWS Lambda
                                   <-- AWS API Gateway
-TRS-80 (BASIC program) <-- TRS-IO
+TRS-80 (BASIC client) <-- TRS-IO
 ```
 
-After getting the lambda working and tested, I was very happy, until I realized that API Gateway only supports HTTPS connections, and Netscape Communications created HTTPS in 1994 for its Netscape Navigator web browser.  The Additionally the TRS-LIB (part of TRS-IO) does not support secure connections.   So I decided to go a bit more old school, and get as close to the implementation of the whois, port 43 protocol as possible, to avoid messing around in the BASIC language too much.  So I settled on a simple EC2 server that hosted a Python server program listening on the same port as the original whois server example:
+After getting the lambda working and tested, I was very happy, until I realized that API Gateway only supports HTTPS connections.  Netscape Communications created HTTPS in 1994 for its Netscape Navigator web browser, a good 13 years after my computer was built!  Additionally the TRS-LIB (part of TRS-IO) did not support secure connections out-of-the-box.  So I decided to go a bit more old school, and get as close to the implementation of the WHOIS, port 43 protocol as possible, to avoid messing around in the BASIC language too much.  So I settled on implementing a simple EC2 server hosting a Python server program, listening on the same port as the original WHOIS server example:
 
+### Here is the architecture that ended up finally working:
 ```
-TRS-80 (BASIC program) -->
+TRS-80 (BASIC client) -->
                            TRS-IO -->
                                       AWS EC2 Python Server --> 
                                                                 OpenAI
                                       AWS EC2 Python Server <-- 
                                   <--
                            TRS-IO
-TRS-80 (BASIC program) <--
+TRS-80 (BASIC client) <--
 ```
 
 For the server side (AWS EC2 Python Server), I wrote a [simple program like this](https://github.com/druid77/trs-gpt/blob/main/server.py "server-side python program"):
@@ -193,14 +193,14 @@ Soon, I had my first successful communication with ChatGPT:
 <img src="images/first-success.jpg" width="100%"/>*First successful communication with ChatGPT!*
 <br/><br/>
 
-So I realized, I had to modify the BASIC program to have loop that would:
- 1. Setup and open socket
+I realized, I had to make some more improvements/modifications to the BASIC program, to have it:
+ 1. Setup and open the socket
  2. Prompt user for query
- 3. Send query over socket
- 4. Close and cleanup socket
+ 3. Send query over the socket
+ 4. Close and cleanup the socket
  5. Cycle back to step 1
 
-After these modifications, I was able to interact with ChatGPT on my TRS-80!
+### After these modifications, I was able to interact with ChatGPT on my TRS-80!
 
 # [CLICK HERE TO WATCH THE FINAL WORKING SYSTEM!!](https://youtu.be/hENzaGMYdL8)
 <a href="https://youtu.be/hENzaGMYdL8"><img src="images/final-thumb.png" width="100%"/>*ChatGPT on the TRS-80!*</a>
