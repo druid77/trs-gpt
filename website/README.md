@@ -113,7 +113,8 @@ TRS-80 -->
 TRS-80 <--
 ```
 
-asdfasdf
+On
 
+Additionally, I had to modify the BASIC program to 
 
 
