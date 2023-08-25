@@ -1,6 +1,6 @@
-TRS-GPT
+# TRS-GPT
 
-When I was a kid, around 1984 or 1985 I got an Atari 800XL, and it was the most joyous and addicting toy I had ever experienced. 
+   When I was a kid, around 1984 or 1985 I got an Atari 800XL, and it was the most joyous and addicting toy I had ever experienced. 
 
 
 https://en.wikipedia.org/wiki/Atari_8-bit_family#/media/File:Atari-800XL.jpg
