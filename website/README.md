@@ -1,17 +1,25 @@
 # TRS-GPT
 
-&nbsp;&nbsp;&nbsp;When I was a kid, around 1984 or 1985 I got an Atari 800XL, and it was the most joyous and addicting toy I had ever experienced. 
+&nbsp;&nbsp;&nbsp;When I was a kid, around 1984 or 1985 I got an Atari 800XL, 
 
-![Atari 800XL Picture Courtesy Wikipedia](/website/images/Atari-800XL.jpeg) *Atari 800XL, picture courtesy Wikipedia.*
+<img src="/website/images/Atari-800XL.jpeg" width="100%"> *Atari 800XL, picture courtesy Wikipedia.*
+&nbsp;  
+&nbsp;  
 
+and it was the most joyous and addicting toy I had ever experienced.  
 Thinking back, I often tell others that I greatly improved my reading and vocabulary skills while playing games such as Zork on a CRT television connected to the Atari computer.
 
-![Zork II, courtesy www.atarimania.com](/website/images/zork_ii_2.gif)
-Zork II, picture courtesy www.atarimania.com
+<img src="/website/images/zork_ii_2.gif" width="100%"> *Zork II, picture courtesy www.atarimania.com*
+&nbsp;  
+&nbsp; 
 
 As I played games, I became curious about how they were made, and I discovered the BASIC programming language.  
+<img src="/website/images/Basic_xl.gif" width="100%"> *BASIC on AtariXL, picture courtesy www.atarimania.com*
+&nbsp;  
+&nbsp; 
 
-http://www.atarimania.com/8bit/screens/Basic_xl.gif
+
+[![](https://markdown-videos-api.jorgenkh.no/youtube/_vK84lvwQwo)](https://www.youtube.com/watch?app=desktop&v=_vK84lvwQwo)
 
 [INSERT SCREENSHOT OF YT VID HERE]
 https://www.youtube.com/watch?app=desktop&v=_vK84lvwQwo
