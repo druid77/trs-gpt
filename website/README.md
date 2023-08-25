@@ -20,15 +20,18 @@ Although only the basics of the language made sense to me, I got a kick out of p
 
 [INSERT SCREENSHOT of mag here]
 
-But what I really wanted to write was an interactive program like Zork, but where I could chat with it, and it was able to hold an intelligent conversation with me.  In other words, it has always been my dream to have artificial general intelligence on my Atari.  
+But what I really wanted to write was an interactive program like Zork, but where I could chat with it, and it was able to hold an intelligent conversation with me.  In other words, it has always been my dream to have artificial general intelligence on my Atari.  Especially inspired by movies such as War Games:
+
+<img src="/website/images/war-games.png" width="100%"/>*War Games Movie - 1983*
+<br/><br/>
 
 Fast forward about 40 years…
 
 I’m now a middle-aged man with a multiple degrees, working for NASA JPL, and all of these years, I have kept alive the childhood dream of interacting (chatting) with the computer in an intelligent way.
 
 This year (2023) two things happened, that allowed me to “close the loop” on my childhood dream:
-Something called ChatGPT became a thing
-Someone at work gave me a free TRS-80 Model III (built in 1981) computer.
+- Something called ChatGPT became a thing
+- Someone at work gave me a free TRS-80 Model III (TODO LINK THIS) (built in 1981) computer.
 
 When I was a kid, I remember friends talking about the TRS-80, referring to it as the “trash 80”.  So my expectations weren’t that high, but hey I realized that it looked pretty retro, had about the same resolution as my old Atari 800XL, and it ran BASIC!  
 
@@ -36,7 +39,10 @@ When I opened the box, and fired it up (at least the thing powered on), I quickl
 
 So I took apart the computer, and one-by-one de-soldered every key, disassembled each one, cleaned the contacts, put the key back together, and soldered the whole keyboard back together.
 
-
+<img src="/website/images/opened.png" width="100%"/>*The TRS-80, opened up*
+<br/><br/>
+<img src="/website/images/removing-keyboard-cover.png" width="100%"/>*disassembling the keyboard*
+<br/><br/>
 
 After this, I had a working, beautiful TRS-80, with fully-functional keys!
 
