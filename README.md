@@ -41,7 +41,7 @@ As a kid, I remember friends talking about the TRS-80, referring to it as the â€
 
 When I opened the box, and fired it up (at least the thing powered on), I quickly realized that only about 10% of the keys actually worked.
 
-I proceeded to take apart the computer, and one-by-one de-soldered each key, disassembled the mechanisms in each one, cleaned the contacts, put the key back together, and soldered the whole keyboard back together.
+I proceeded to take apart the computer, and one-by-one de-soldered each key, disassembled the mechanisms in each one, cleaned the contacts, put the key back together, and soldered the whole keyboard back together.  Thanks to [this great video](https://www.youtube.com/watch?v=qaxfMWPJzBQ), I was really about to understand the process of keyboard restoration.
 
 <img src="images/opened.jpg" width="100%"/>*The TRS-80, opened up*
 <br/><br/>
