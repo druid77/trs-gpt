@@ -19,10 +19,8 @@ As I played games, I became curious about how they were made, and I discovered t
 &nbsp; 
 
 
-[![](https://markdown-videos-api.jorgenkh.no/youtube/_vK84lvwQwo)](https://www.youtube.com/watch?app=desktop&v=_vK84lvwQwo)
+<a href="http://example.com/](https://www.youtube.com/watch?app=desktop&v=_vK84lvwQwo" target="_blank"><img src="/website/images/basic_yt_thumb.png"/></a>
 
-[INSERT SCREENSHOT OF YT VID HERE]
-https://www.youtube.com/watch?app=desktop&v=_vK84lvwQwo
 
 Although only the basics of the language made sense to me, I got a kick out of painstakingly, manually typing in long programs that did cool things from my subscription to Antic Magazine:
 
