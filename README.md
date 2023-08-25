@@ -203,3 +203,4 @@ So I realized, I had to modify the BASIC program to have loop that would:
 After these modifications, I was able to interact with ChatGPT on my TRS-80!
 
 # [CLICK HERE TO WATCH THE FINAL WORKING SYSTEM!!](https://youtu.be/hENzaGMYdL8)
+<a href="https://youtu.be/hENzaGMYdL8"><img src="images/final-thumb.png" width="100%"/>*ChatGPT on the TRS-80!*</a>
