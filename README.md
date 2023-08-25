@@ -1,6 +1,6 @@
 # "TRS-GPT" : ChatGPT from a TRS-80 Model III Computer built in 1981
 
-If you want to skip ahead, and simply see the final product, then [CLICK HERE](https://youtu.be/hENzaGMYdL8)
+If you want to skip ahead, and simply see the final, working project, then [CLICK HERE](https://youtu.be/hENzaGMYdL8)
 
 &nbsp;&nbsp;&nbsp;When I was a kid, around 1985 I got an [Atari 800XL](https://www.computinghistory.org.uk/det/3959/Atari-800XL/), 
 
