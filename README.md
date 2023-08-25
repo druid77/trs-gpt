@@ -5,7 +5,7 @@ trs-gpt
 
 &nbsp;&nbsp;&nbsp;When I was a kid, around 1984 or 1985 I got an Atari 800XL, 
 
-<img src="/website/images/Atari-800XL.jpeg" width="100%"> *Atari 800XL, picture courtesy Wikipedia.*
+<img src="images/Atari-800XL.jpeg" width="100%"> *Atari 800XL, picture courtesy Wikipedia.*
 &nbsp;  
 &nbsp;  
 
