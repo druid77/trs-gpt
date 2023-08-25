@@ -1,7 +1,4 @@
-# trs-gpt
-trs-gpt
-
-# TRS-GPT
+# TRS-GPT -- ChatGPT from a TRS-80 Model III Computer built in 1981
 
 &nbsp;&nbsp;&nbsp;When I was a kid, around 1984 or 1985 I got an Atari 800XL, 
 
