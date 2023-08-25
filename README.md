@@ -18,7 +18,9 @@ As I played games, I became curious about how they were made, and I discovered t
 <br/><br/>
 Although only the basics of the language made sense to me, I got a kick out of painstakingly, manually typing in long programs that did cool things from my subscription to Antic Magazine:
 
-[INSERT SCREENSHOT of mag here]
+<img src="images/antic.jpg" width="100%"> *My Antic magazine, 1986*
+&nbsp;  
+&nbsp; 
 
 But what I really wanted to write was an interactive program like Zork, but where I could chat with it, and it was able to hold an intelligent conversation with me.  In other words, it has always been my dream to have artificial general intelligence on my Atari.  Especially inspired by movies such as War Games:
 
@@ -147,7 +149,7 @@ def do_open_ai_query(chat_input):
 
 def chat_with_gpt3(messages):
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model=OPENAI_MODEL,
         messages=messages
     )
     return response.choices[0].message['content']
