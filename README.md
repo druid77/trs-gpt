@@ -45,13 +45,13 @@ So I took apart the computer, and one-by-one de-soldered every key, disassembled
 
 <img src="images/opened.jpg" width="100%"/>*The TRS-80, opened up*
 <br/><br/>
-<img src="images/keyboard-top-down-view.jpg" width="100%"/>*a key contact*
+<img src="images/keyboard-top-down-view.jpg" width="100%"/>*a top-down view of the keyboard*
 <br/><br/>
 <img src="images/removing-keyboard-cover.jpg" width="100%"/>*disassembling the keyboard*
 <br/><br/>
 <img src="images/cleaning-a-key.jpg" width="100%"/>*cleaning a key*
 <br/><br/>
-<img src="images/keyboard-contact.jpg" width="100%"/>*a key contact*
+<img src="images/keyboard-contact.jpg" width="100%"/>*close-up view of a key contact*
 <br/><br/>
 <img src="images/soldering.jpg" width="100%"/>*soldering the keyboard back together*
 <br/><br/>
@@ -78,7 +78,7 @@ I was now able to play games like Microchess 1.5 (copyright 1978)
 And then it dawned on me that to achieve my goal of intelligent discussion with my computer, I really needed my TRS-80 to hook up to the internet (so that I could talk to OpenAI/ChatGPT).  As good as the FreHD Clearly Superior Kit was, I apparently needed something a bit more Superior.  I did more more internet searching, and found the TRS-IO.  
 https://github.com/apuder/TRS-IO
 
-<img src="images/trs-io-architecture.png" width="100%"/>*Overview of the TRS-IO, courtesy of https://github.com/apuder/TRS-IO*
+<img src="images/trs-io-architecture.png" width="100%"/>*Overview of the TRS-IO, courtesy of [Arno Puder](https://github.com/apuder/TRS-IO)*
 <br/><br/>
 
 The TRS-IO promised to be a solution that would provide the capability to both store programs, and access the internet.  I could even take the micro-SD card that I had with my superior device, and and use it here.  So I ordered the TRS-IO from Arno Puder https://github.com/apuder, and swapped it in for my superior kit.
