@@ -18,10 +18,8 @@ As I played games, I became curious about how they were made, and I discovered t
 &nbsp;  
 &nbsp; 
 
-
-<a href="https://www.youtube.com/watch?v=_vK84lvwQwo" target="_blank"><img src="/website/images/basic_yt_thumb.png"/></a>
-
-
+<img src="/website/images/7wvs0j.gif" width="100%"/>*example courtesy of https://www.youtube.com/@mmille10*
+<br/><br/>
 Although only the basics of the language made sense to me, I got a kick out of painstakingly, manually typing in long programs that did cool things from my subscription to Antic Magazine:
 
 [INSERT SCREENSHOT of mag here]
