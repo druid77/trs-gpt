@@ -1,4 +1,4 @@
-# TRS-GPT -- ChatGPT from a TRS-80 Model III Computer built in 1981
+# "TRS-GPT" : ChatGPT from a TRS-80 Model III Computer built in 1981
 
 &nbsp;&nbsp;&nbsp;When I was a kid, around 1984 or 1985 I got an Atari 800XL, 
 
@@ -89,28 +89,28 @@ https://github.com/apuder/TRS-IO/blob/master/examples/trs-nic/WHOIS.BAS
 In order to connect text queries entered on the TRS-80 to the OpenAI server, I first came up with a plan to implement an AWS lambda function, sitting behind an API Gateway that passed the query to OpenAI, then returned the response back the TRS-80. 
 
 ```
-TRS-80 -->
-           TRS-IO -->
-                      AWS API Gateway --> 
-                                          AWS Lambda -->
-                                                         OpenAI
-                                                     <--
-                                      <-- AWS Lambda
-                  <-- AWS API Gateway
-TRS-80 <-- TRS-IO
+TRS-80 (BASIC program) -->
+                           TRS-IO -->
+                                      AWS API Gateway --> 
+                                                          AWS Lambda -->
+                                                                         OpenAI
+                                                                     <--
+                                                      <-- AWS Lambda
+                                  <-- AWS API Gateway
+TRS-80 (BASIC program) <-- TRS-IO
 ```
 
 After getting the lambda working and tested, I was very happy, until I realized that API Gateway only supports HTTPS connections, and Netscape Communications created HTTPS in 1994 for its Netscape Navigator web browser.  The Additionally the TRS-LIB (part of TRS-IO) does not support secure connections.   So I decided to go a bit more old school, and get as close to the implementation of the whois, port 43 protocol as possible, to avoid much messing around in the BASIC language.  So I settled on a simple EC2 server that hosted a Python server program listening on the same port as the original whois server example.
 
 ```
-TRS-80 -->
-           TRS-IO -->
-                      AWS EC2 Python Server --> 
-                                                OpenAI
-                      AWS EC2 Python Server <-- 
-                  <--
-           TRS-IO
-TRS-80 <--
+TRS-80 (BASIC program) -->
+                           TRS-IO -->
+                                      AWS EC2 Python Server --> 
+                                                                OpenAI
+                                      AWS EC2 Python Server <-- 
+                                  <--
+                           TRS-IO
+TRS-80 (BASIC program) <--
 ```
 
 For the server side (AWS EC2 Python Server), I wrote a [simple program like this](https://github.com/druid77/trs-gpt/blob/main/server.py "server-side python program"):
