@@ -41,10 +41,21 @@ So I took apart the computer, and one-by-one de-soldered every key, disassembled
 
 <img src="/website/images/opened.png" width="100%"/>*The TRS-80, opened up*
 <br/><br/>
+<img src="/website/images/keyboard-top-down-view.png" width="100%"/>*a key contact*
+<br/><br/>
 <img src="/website/images/removing-keyboard-cover.png" width="100%"/>*disassembling the keyboard*
+<br/><br/>
+<img src="/website/images/cleaning-a-key.png" width="100%"/>*cleaning a key*
+<br/><br/>
+<img src="/website/images/keyboard-contact.png" width="100%"/>*a key contact*
+<br/><br/>
+<img src="/website/images/soldering.png" width="100%"/>*soldering the keyboard back together*
 <br/><br/>
 
 After this, I had a working, beautiful TRS-80, with fully-functional keys!
+
+<img src="/website/images/restoration-complete.png" width="100%"/>*shiny, brand-new, restored TRS-80 Model III!*
+<br/><br/>
 
 Then I realized that I didn’t even have a hard drive to store BASIC programs (or anything) on.  Should I track down and buy a TRS-80 floppy drive from someone on Ebay?  No, this is 2023, and I don’t trust floppy things!  I did some searches online, and found Ian Mavric, the “Australian TRS-80 Recycler”, and figured out I could get a FreHD module, which essentially allows one to plug an external board with a microSD card, into the serial ribbon cable input on the back of the TRS-80, which would emulate a hard drive.  Ian was selling the the “FreHD Clearly Superior Kit for M3/4”, which supposedly worked for my needs.  It was “clearly superior”, so it had to be the right choice for me 🙂.   Ian was really helpful, and after a few emails with him, and determining that my system actually had the needed 48K of RAM,
 
