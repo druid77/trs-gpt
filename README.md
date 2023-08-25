@@ -204,3 +204,5 @@ I realized, I had to make some more improvements/modifications to the BASIC prog
 
 # [CLICK HERE TO WATCH THE FINAL WORKING SYSTEM!!](https://youtu.be/hENzaGMYdL8)
 <a href="https://youtu.be/hENzaGMYdL8"><img src="images/final-thumb.png" width="100%"/>*ChatGPT on the TRS-80!*</a>
+<br/><br/>
+I hope you enjoyed reading about my journey to get a retro computer connecting to the modern world!
