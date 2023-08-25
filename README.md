@@ -193,11 +193,13 @@ Soon, I had my first successful communication with ChatGPT:
 <br/><br/>
 
 So I realized, I had to modify the BASIC program to have loop that would:
-1) Setup and open socket
-2) Prompt user for query
-3) Send query over socket
-4) Close and cleanup socket
-5) Cycle back to step 1
+ 1. Setup and open socket
+ 2. Prompt user for query
+ 3. Send query over socket
+ 4. Close and cleanup socket
+ 5. Cycle back to step 1
 
+After these modifications, I was able to interact with ChatGPT on my TRS-80!
 
+<VIDEO GOES HERE>
 
