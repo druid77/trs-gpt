@@ -185,7 +185,11 @@ if __name__ == "__main__":
     main()
 ```
 
-Additionally, I had to modify the BASIC program to have loop that would:
+Soon, I had my first successful communication with ChatGPT:
+<img src="/website/images/first-success.jpg" width="100%"/>*First successful communication with ChatGPT!*
+<br/><br/>
+
+So I realized, I had to modify the BASIC program to have loop that would:
 1) Setup and open socket
 2) Prompt user for query
 3) Send query over socket
