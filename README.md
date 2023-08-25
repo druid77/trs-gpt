@@ -31,11 +31,11 @@ But what I really wanted to write was an interactive program like Zork, but wher
 
 Fast forward about 40 years…
 
-I’m now a middle-aged man with a multiple degrees, working for NASA JPL, and all of these years, I have kept alive the childhood dream of interacting (chatting) with the computer in an intelligent way.
+I’m now a middle-aged man with a multiple degrees, working for NASA JPL, and all of these years, I still have kept alive the childhood dream of interacting (chatting) with the computer in an intelligent way.
 
 This year (2023) two things happened, that allowed me to “close the loop” on my childhood dream:
-- Something called ChatGPT became a thing
-- Someone at work gave me a free TRS-80 Model III (TODO LINK THIS) (built in 1981) computer.
+- Something called [ChatGPT](https://openai.com/blog/chatgpt) became a thing
+- Someone at work gave me a free [TRS-80 Model III](http://www.trs-80.org/model-3/) (built in 1981) computer.
 
 When I was a kid, I remember friends talking about the TRS-80, referring to it as the “trash 80”.  So my expectations weren’t that high, but hey I realized that it looked pretty retro, had about the same resolution as my old Atari 800XL, and it ran BASIC!  
 
