@@ -2,7 +2,7 @@
 
 If you want to skip ahead, and simply see the final, working project, then [CLICK HERE](https://youtu.be/hENzaGMYdL8)
 
-&nbsp;&nbsp;&nbsp;When I was a kid, around 1985 I got an [Atari 800XL](https://www.computinghistory.org.uk/det/3959/Atari-800XL/), 
+When I was a kid, around 1985, I got an [Atari 800XL](https://www.computinghistory.org.uk/det/3959/Atari-800XL/), 
 
 <img src="images/Atari-800XL.jpeg" width="100%"> *Atari 800XL, picture courtesy Wikipedia.*
 &nbsp;  
