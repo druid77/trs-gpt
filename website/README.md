@@ -1,15 +1,13 @@
 # TRS-GPT
 
-   When I was a kid, around 1984 or 1985 I got an Atari 800XL, and it was the most joyous and addicting toy I had ever experienced. 
+&nbsp;&nbsp;&nbsp;When I was a kid, around 1984 or 1985 I got an Atari 800XL, and it was the most joyous and addicting toy I had ever experienced. 
 
+![Atari 800XL Picture Courtesy Wikipedia](/website/images/Atari-800XL.jpeg) *Atari 800XL, picture courtesy Wikipedia.*
 
-https://en.wikipedia.org/wiki/Atari_8-bit_family#/media/File:Atari-800XL.jpg
-Atari 800XL Picture Courtesy Wikipedia
+Thinking back, I often tell others that I greatly improved my reading and vocabulary skills while playing games such as Zork on a CRT television connected to the Atari computer.
 
-Thinking back, I make the claim that I greatly improves my reading and vocabulary skills while playing games such as Zork on a I’mCRT television connected to the Atari computer.
-
-
-http://www.atarimania.com/8bit/screens/zork_ii_2.gif
+![Zork II, courtesy www.atarimania.com](/website/images/zork_ii_2.gif)
+Zork II, picture courtesy www.atarimania.com
 
 As I played games, I became curious about how they were made, and I discovered the BASIC programming language.  
 
