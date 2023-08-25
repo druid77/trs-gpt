@@ -71,15 +71,49 @@ I was now able to play games like Microchess 1.5 (copyright 1978)
 <img src="/website/images/apple-panic.jpg" width="100%"/>*shiny, brand-new, restored TRS-80 Model III!*
 <br/><br/>
 
-And then it dawned on me that to achieve my goal of intelligent discussion with my computer, I really needed my TRS-80 to hook up to the internet (so that I could talk to OpenAI/ChatGPT).  As good as the FreHD Clearly Superior Kit was, I apparently needed something a bit more Superior.
+And then it dawned on me that to achieve my goal of intelligent discussion with my computer, I really needed my TRS-80 to hook up to the internet (so that I could talk to OpenAI/ChatGPT).  As good as the FreHD Clearly Superior Kit was, I apparently needed something a bit more Superior.  I did more more internet searching, and found the TRS-IO.  
+https://github.com/apuder/TRS-IO
 
+<img src="/website/images/trs-io-architecture.png" width="100%"/>*Overview of the TRS-IO, courtesy of https://github.com/apuder/TRS-IO*
+<br/><br/>
 
+The TRS-IO promised to be a solution that would provide the capability to both store programs, and access the internet.  I could even take the micro-SD card that I had with my superior device, and and use it here.  So I ordered the TRS-IO from Arno Puder https://github.com/apuder, and swapped it in for my superior kit.
 
-[insert pics here]
+<img src="/website/images/connecting-trs-io.jpg" width="100%"/>*Connecting and configuring the TRS-IO to use the WiFi*
+<br/><br/>
 
-After this, I was off to the races, and I could play cool retro games like Microchess 1.5 
+After connecting it, and configuring it to connect to my Wifi, which took me a while to figure out, because, who knew, but I needed to actually connect the antenna, I was off to the races, and exploring some example programs in BASIC that connected to the whois server to make requests.  Arno provided some useful starter example code here.
 
+https://github.com/apuder/TRS-IO/blob/master/examples/trs-nic/WHOIS.BAS
 
+In order to connect text queries entered on the TRS-80 to the OpenAI server, I first came up with a plan to implement an AWS lambda function, sitting behind an API Gateway that passed the query to OpenAI, then returned the response back the TRS-80. 
+
+```
+TRS-80 -->
+           TRS-IO -->
+                      AWS API Gateway --> 
+                                          AWS Lambda -->
+                                                         OpenAI
+                                                     <--
+                                      <-- AWS Lambda
+                  <-- AWS API Gateway
+TRS-80 <-- TRS-IO
+```
+
+After getting the lambda working and tested, I was very happy, until I realized that API Gateway only supports HTTPS connections, and Netscape Communications created HTTPS in 1994 for its Netscape Navigator web browser.  The Additionally the TRS-LIB (part of TRS-IO) does not support secure connections.   So I decided to go a bit more old school, and get as close to the implementation of the whois, port 43 protocol as possible, to avoid much messing around in the BASIC language.  So I settled on a simple EC2 server that hosted a Python server program listening on the same port as the original whois server example.
+
+```
+TRS-80 -->
+           TRS-IO -->
+                      AWS EC2 Python Server --> 
+                                                OpenAI
+                      AWS EC2 Python Server <-- 
+                  <--
+           TRS-IO
+TRS-80 <--
+```
+
+asdfasdf
 
 
 
