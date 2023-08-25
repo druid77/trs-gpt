@@ -2,36 +2,36 @@
 
 If you want to skip ahead, and simply see the final product, then [CLICK HERE](https://youtu.be/hENzaGMYdL8)
 
-&nbsp;&nbsp;&nbsp;When I was a kid, around 1984 or 1985 I got an Atari 800XL, 
+&nbsp;&nbsp;&nbsp;When I was a kid, around 1985 I got an [Atari 800XL](https://www.computinghistory.org.uk/det/3959/Atari-800XL/), 
 
 <img src="images/Atari-800XL.jpeg" width="100%"> *Atari 800XL, picture courtesy Wikipedia.*
 &nbsp;  
 &nbsp;  
 
-It was the most joyous and addicting toy I had ever experienced, especially since it had games like Zork:
+It was the most joyous and addicting toy I had ever experienced, especially since it had games like [Zork](https://en.wikipedia.org/wiki/Zork):
 
 <img src="images/zork.png" width="100%"> *Zork II, picture courtesy www.atarimania.com*
 &nbsp;  
 &nbsp; 
 
 Thinking back, I often tell others that I greatly improved my reading and vocabulary skills while playing games such as Zork on a CRT television connected to the Atari computer.
-As I played games, I became curious about how they were made, and I discovered the BASIC programming language.  
+As I played games, I became curious about how they were made, and I discovered the [BASIC programming language](https://en.wikipedia.org/wiki/BASIC).  
 <img src="images/7wvs0j.gif" width="100%"/>*example courtesy of https://www.youtube.com/@mmille10*
 <br/><br/>
-Although only the basics of the language made sense to me, I got a kick out of painstakingly, manually typing in long programs that did cool things from my subscription to Antic Magazine:
+Although only the basics of the language made sense to me, I got a kick out of painstakingly, manually typing in long programs that did cool things from my subscription to [Antic Magazine](https://www.atarimagazines.com/antic/):
 
 <img src="images/antic.jpg" width="100%"> *My Antic magazine, 1986*
 &nbsp;  
 &nbsp; 
 
-But what I really wanted to write was an interactive program like Zork, but where I could chat with it, and it was able to hold an intelligent conversation with me.  In other words, it has always been my dream to have artificial general intelligence on my Atari.  Especially inspired by movies such as War Games:
+But what I really wanted to write was an interactive program like Zork, but where I could chat with it, and it was able to hold an intelligent conversation with me.  In other words, it has always been my dream to have artificial general intelligence on my Atari.  Especially inspired by movies such as [War Games](https://www.imdb.com/title/tt0086567/):
 
 <img src="images/war-games.png" width="100%"/>*War Games Movie - 1983*
 <br/><br/>
 
 Fast forward about 40 years…
 
-I’m now a middle-aged man with a multiple degrees, working for NASA JPL, and all of these years, I still have kept alive the childhood dream of interacting (chatting) with the computer in an intelligent way.
+I’m now a middle-aged man with multiple degrees, working for NASA JPL.  For all of these years, I've kept alive the childhood dream of interacting (chatting) with the computer in an intelligent way.
 
 This year (2023) two things happened, that allowed me to “close the loop” on my childhood dream:
 - Something called [ChatGPT](https://openai.com/blog/chatgpt) became a thing
