@@ -20,7 +20,7 @@ As I played games, I became curious about how they were made, and I discovered t
 <br/><br/>
 Although only the basics of the language made sense to me, I got a kick out of painstakingly, manually typing in long programs that did cool things from my subscription to [Antic Magazine](https://www.atarimagazines.com/antic/):
 
-<kbd><img src="images/antic.jpg" width="100%">My Antic magazine, 1986</kbd>
+<kbd><img src="images/antic.jpeg" width="100%">My Antic magazine, 1986</kbd>
 &nbsp;  
 &nbsp; 
 
@@ -43,36 +43,36 @@ When I opened the box, and fired it up (at least the thing powered on), I quickl
 
 I proceeded to take apart the computer, and one-by-one de-soldered each key, disassembled the mechanisms in each one, cleaned the contacts, put the key back together, and soldered the whole keyboard back together.  Thanks to [this great video](https://www.youtube.com/watch?v=qaxfMWPJzBQ), I was really about to understand the process of keyboard restoration.
 
-<kbd><img src="images/opened.jpg" width="100%"/>The TRS-80, opened up</kbd>
+<kbd><img src="images/opened.jpeg" width="100%"/>The TRS-80, opened up</kbd>
 <br/><br/>
-<kbd><img src="images/keyboard-top-down-view.jpg" width="100%"/>a top-down view of the keyboard</kbd>
+<kbd><img src="images/keyboard-top-down-view.jpeg" width="100%"/>a top-down view of the keyboard</kbd>
 <br/><br/>
-<kbd><img src="images/removing-keyboard-cover.jpg" width="100%"/>disassembling the keyboard</kbd>
+<kbd><img src="images/removing-keyboard-cover.jpeg" width="100%"/>disassembling the keyboard</kbd>
 <br/><br/>
-<kbd><img src="images/cleaning-a-key.jpg" width="100%"/>cleaning a key</kbd>
+<kbd><img src="images/cleaning-a-key.jpeg" width="100%"/>cleaning a key</kbd>
 <br/><br/>
-<kbd><img src="images/keyboard-contact.jpg" width="100%"/>close-up view of a key contact</kbd>
+<kbd><img src="images/keyboard-contact.jpeg" width="100%"/>close-up view of a key contact</kbd>
 <br/><br/>
-<kbd><img src="images/soldering.jpg" width="100%"/>soldering the keyboard back together</kbd>
+<kbd><img src="images/soldering.jpeg" width="100%"/>soldering the keyboard back together</kbd>
 <br/><br/>
 
 After this, I had a working, beautiful TRS-80, with fully-functional keys!
 
-<kbd><img src="images/restoration-complete.jpg" width="100%"/>shiny, brand-new, restored TRS-80 Model III!</kbd>
+<kbd><img src="images/restoration-complete.jpeg" width="100%"/>shiny, brand-new, restored TRS-80 Model III!</kbd>
 <br/><br/>
 
 Then I realized that I didn’t even have a hard drive to store BASIC programs (or anything) on.  Should I track down and buy a TRS-80 floppy drive from someone on Ebay?  No, this is 2023, and I wanted to follow a more modern approach!  I did some searches online, and found Ian Mavric, the “Australian TRS-80 Recycler”, and figured out I could get a FreHD module, which essentially allows one to plug an external board with a microSD card, into the serial ribbon cable input on the back of the TRS-80, which would emulate a hard drive.  Ian was selling the the “FreHD Clearly Superior Kit for M3/4”, which supposedly worked for my needs.  It was “clearly superior”, so it had to be the right choice for me.   I ordered the kit, and set it up, which also involved replacing a certain ROM chip.
 
-<kbd><img src="images/fred-clearly.jpg" width="100%"/>FreHD Clearly Superior Kit for M3/4!</kbd>
+<kbd><img src="images/fred-clearly.jpeg" width="100%"/>FreHD Clearly Superior Kit for M3/4!</kbd>
 <br/><br/>
 
 Ian was really helpful, and after a few emails with him, and determining that my system actually had the needed 48K of RAM, I hooked it up!
 I was now able to play games like Microchess 1.5 (copyright 1978)
-<kbd><img src="images/chess2.jpg" width="100%"/>Microchess 1.5 (copyright 1978)</kbd>
+<kbd><img src="images/chess2.jpeg" width="100%"/>Microchess 1.5 (copyright 1978)</kbd>
 <br/><br/>
-<kbd><img src="images/playing-panic.jpg" width="100%"/>Apple Panic, the game</kbd>
+<kbd><img src="images/playing-panic.jpeg" width="100%"/>Apple Panic, the game</kbd>
 <br/><br/>
-<kbd><img src="images/apple-panic.jpg" width="100%"/>Apple Panic, the game</kbd>
+<kbd><img src="images/apple-panic.jpeg" width="100%"/>Apple Panic, the game</kbd>
 <br/><br/>
 
 And then it dawned on me that to achieve my goal of intelligent discussion with my computer, I really needed my TRS-80 to hook up to the internet (so that I could talk to OpenAI/ChatGPT).  As good as the FreHD Clearly Superior Kit was, I apparently needed something a bit more Superior.  I did more more internet searching, and found the TRS-IO.  
@@ -83,7 +83,7 @@ https://github.com/apuder/TRS-IO
 
 The TRS-IO promised to be a solution that would provide the capability to both store programs, and access the internet.  I could even take the micro-SD card that I had with my superior device, and and use it here.  So I ordered the TRS-IO from [Arno Puder](https://github.com/apuder), and swapped it in for my superior kit.
 
-<kbd><img src="images/connecting-trs-io.jpg" width="100%"/>Connecting and configuring the TRS-IO to use the WiFi</kbd>
+<kbd><img src="images/connecting-trs-io.jpeg" width="100%"/>Connecting and configuring the TRS-IO to use the WiFi</kbd>
 <br/><br/>
 
 After connecting it, and configuring it to connect to my Wi-Fi, which took me a while to figure out, because, who knew, but I needed to actually connect the antenna, I was up and running, able to explore some example programs in BASIC that connected to the [WHOIS](https://www.iana.org/whois) server to make requests.  Arno provided some [super useful starter example code](https://github.com/apuder/TRS-IO/blob/master/examples/trs-nic/WHOIS.BAS) for this, that I was able to play around with to see how things work:
@@ -157,7 +157,7 @@ if __name__ == "__main__":
 ```
 
 Soon, I had my first successful communication with ChatGPT:
-<kbd><img src="images/first-success.jpg" width="100%"/>First successful communication with ChatGPT!</kbd>
+<kbd><img src="images/first-success.jpeg" width="100%"/>First successful communication with ChatGPT!</kbd>
 <br/><br/>
 
 I realized, I had to make some more improvements/modifications to the BASIC program, to have it:
