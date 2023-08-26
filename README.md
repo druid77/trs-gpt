@@ -89,33 +89,13 @@ The TRS-IO promised to be a solution that would provide the capability to both s
 After connecting it, and configuring it to connect to my Wi-Fi, which took me a while to figure out, because, who knew, but I needed to actually connect the antenna, I was up and running, able to explore some example programs in BASIC that connected to the [WHOIS](https://www.iana.org/whois) server to make requests.  Arno provided some [super useful starter example code](https://github.com/apuder/TRS-IO/blob/master/examples/trs-nic/WHOIS.BAS) for this, that I was able to play around with to see how things work:
 
 In order to pass text queries entered on the TRS-80 to the OpenAI server, I first came up with a plan to implement an AWS lambda function, sitting behind an API Gateway that passed the query to OpenAI, then returned the response back the TRS-80. 
-
-```
-TRS-80 (BASIC client) -->
-                           TRS-IO -->
-                                      AWS API Gateway --> 
-                                                          AWS Lambda
-                                                                     -->
-                                                                         OpenAI
-                                                                     <--
-                                                      <-- AWS Lambda
-                                  <-- AWS API Gateway
-TRS-80 (BASIC client) <-- TRS-IO
-```
+<img src="images/topology1.png" width="100%"/>*my first attempt at the topology*
+<br/><br/>
 
 After getting the lambda working and tested, I was very happy, until I realized that API Gateway only supports HTTPS connections.  Netscape Communications created HTTPS in 1994 for its Netscape Navigator web browser, a good 13 years after my computer was built!  Additionally the TRS-LIB (part of TRS-IO) did not support secure connections out-of-the-box.  So I decided to go a bit more old school, and get as close to the implementation of the WHOIS, port 43 protocol as possible, to avoid messing around in the BASIC language too much.  So I settled on implementing a simple EC2 server hosting a Python server program, listening on the same port as the original WHOIS server example:
 
-### Here is the architecture that ended up finally working:
-```
-TRS-80 (BASIC client) -->
-                           TRS-IO -->
-                                      AWS EC2 Python Server --> 
-                                                                OpenAI
-                                      AWS EC2 Python Server <-- 
-                                  <--
-                           TRS-IO
-TRS-80 (BASIC client) <--
-```
+<img src="images/topology2.png" width="100%"/>*final, working architecture*
+<br/><br/>
 
 ### TRSGPT.BAS (the client-side program):
 https://github.com/druid77/trs-gpt/blob/main/TRSGPT.BAS
