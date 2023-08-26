@@ -10,13 +10,13 @@ When I was a kid, around 1985, I got an [Atari 800XL](https://www.computinghisto
 
 It was the most joyous and addicting toy I had ever experienced, especially since it had games like [Zork](https://en.wikipedia.org/wiki/Zork):
 
-<kbd><img src="images/zork.png" width="100%"> *Zork II, picture courtesy www.atarimania.com*</kbd>
+<kbd><img src="images/zork.png" width="100%">Zork II, picture courtesy [www.atarimania.com](www.atarimania.com)</kbd>
 &nbsp;  
 &nbsp; 
 
 Thinking back, I often tell others that I greatly improved my reading and vocabulary skills while playing games such as Zork on a CRT television connected to the Atari computer.
 As I played games, I became curious about how they were made, and I discovered the [BASIC programming language](https://en.wikipedia.org/wiki/BASIC).  
-<kbd><img src="images/7wvs0j.gif" width="100%"/>*example courtesy of https://www.youtube.com/@mmille10*</kbd>
+<kbd><img src="images/7wvs0j.gif" width="100%"/>example courtesy of https://www.youtube.com/@mmille10</kbd>
 <br/><br/>
 Although only the basics of the language made sense to me, I got a kick out of painstakingly, manually typing in long programs that did cool things from my subscription to [Antic Magazine](https://www.atarimagazines.com/antic/):
 
