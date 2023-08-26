@@ -10,7 +10,7 @@ When I was a kid, around 1985, I got an [Atari 800XL](https://www.computinghisto
 
 It was the most joyous and addicting toy I had ever experienced, especially since it had games like [Zork](https://en.wikipedia.org/wiki/Zork):
 
-<kbd><img src="images/zork.png" width="100%">Zork II, picture courtesy [www.atarimania.com](www.atarimania.com)</kbd>
+<kbd><img src="images/zork.png" width="100%">Zork II, picture courtesy www.atarimania.com</kbd>
 &nbsp;  
 &nbsp; 
 
