@@ -70,20 +70,20 @@ Ian was really helpful, and after a few emails with him, and determining that my
 I was now able to play games like Microchess 1.5 (copyright 1978)
 <kbd><img src="images/chess2.jpg" width="100%"/>Microchess 1.5 (copyright 1978)</kbd>
 <br/><br/>
-<img src="images/playing-panic.jpg" width="100%"/>*Apple Panic, the game*
+<kbd><img src="images/playing-panic.jpg" width="100%"/>Apple Panic, the game</kbd>
 <br/><br/>
-<img src="images/apple-panic.jpg" width="100%"/>*Apple Panic, the game*
+<kbd><img src="images/apple-panic.jpg" width="100%"/>Apple Panic, the game</kbd>
 <br/><br/>
 
 And then it dawned on me that to achieve my goal of intelligent discussion with my computer, I really needed my TRS-80 to hook up to the internet (so that I could talk to OpenAI/ChatGPT).  As good as the FreHD Clearly Superior Kit was, I apparently needed something a bit more Superior.  I did more more internet searching, and found the TRS-IO.  
 https://github.com/apuder/TRS-IO
 
-<img src="images/trs-io-architecture.png" width="100%"/>*Overview of the TRS-IO, courtesy of [Arno Puder](https://github.com/apuder/TRS-IO)*
+<kbd><img src="images/trs-io-architecture.png" width="100%"/>Overview of the TRS-IO, courtesy of [Arno Puder](https://github.com/apuder/TRS-IO)</kbd>
 <br/><br/>
 
 The TRS-IO promised to be a solution that would provide the capability to both store programs, and access the internet.  I could even take the micro-SD card that I had with my superior device, and and use it here.  So I ordered the TRS-IO from [Arno Puder](https://github.com/apuder), and swapped it in for my superior kit.
 
-<img src="images/connecting-trs-io.jpg" width="100%"/>*Connecting and configuring the TRS-IO to use the WiFi*
+<kbd><img src="images/connecting-trs-io.jpg" width="100%"/>Connecting and configuring the TRS-IO to use the WiFi</kbd>
 <br/><br/>
 
 After connecting it, and configuring it to connect to my Wi-Fi, which took me a while to figure out, because, who knew, but I needed to actually connect the antenna, I was up and running, able to explore some example programs in BASIC that connected to the [WHOIS](https://www.iana.org/whois) server to make requests.  Arno provided some [super useful starter example code](https://github.com/apuder/TRS-IO/blob/master/examples/trs-nic/WHOIS.BAS) for this, that I was able to play around with to see how things work:
@@ -94,7 +94,7 @@ In order to pass text queries entered on the TRS-80 to the OpenAI server, I firs
 
 After getting the lambda working and tested, I was very happy, until I realized that API Gateway only supports HTTPS connections.  Netscape Communications created HTTPS in 1994 for its Netscape Navigator web browser, a good 13 years after my computer was built!  Additionally the TRS-LIB (part of TRS-IO) did not support secure connections out-of-the-box.  So I decided to go a bit more old school, and get as close to the implementation of the WHOIS, port 43 protocol as possible, to avoid messing around in the BASIC language too much.  So I settled on implementing a simple EC2 server hosting a Python server program, listening on the same port as the original WHOIS server example:
 
-<img src="images/topology2.png" width="100%"/>*final, working architecture*
+<kbd><img src="images/topology2.png" width="100%"/>final, working architecture</kbd>
 <br/><br/>
 
 ### TRSGPT.BAS (the client-side program):
@@ -252,7 +252,7 @@ if __name__ == "__main__":
 ```
 
 Soon, I had my first successful communication with ChatGPT:
-<img src="images/first-success.jpg" width="100%"/>*First successful communication with ChatGPT!*
+<kbd><img src="images/first-success.jpg" width="100%"/>First successful communication with ChatGPT!</kbd>
 <br/><br/>
 
 I realized, I had to make some more improvements/modifications to the BASIC program, to have it:
