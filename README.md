@@ -10,23 +10,23 @@ When I was a kid, around 1985, I got an [Atari 800XL](https://www.computinghisto
 
 It was the most joyous and addicting toy I had ever experienced, especially since it had games like [Zork](https://en.wikipedia.org/wiki/Zork):
 
-<img src="images/zork.png" width="100%"> *Zork II, picture courtesy www.atarimania.com*
+<kbd><img src="images/zork.png" width="100%"> *Zork II, picture courtesy www.atarimania.com*</kbd>
 &nbsp;  
 &nbsp; 
 
 Thinking back, I often tell others that I greatly improved my reading and vocabulary skills while playing games such as Zork on a CRT television connected to the Atari computer.
 As I played games, I became curious about how they were made, and I discovered the [BASIC programming language](https://en.wikipedia.org/wiki/BASIC).  
-<img src="images/7wvs0j.gif" width="100%"/>*example courtesy of https://www.youtube.com/@mmille10*
+<kbd><img src="images/7wvs0j.gif" width="100%"/>*example courtesy of https://www.youtube.com/@mmille10*</kbd>
 <br/><br/>
 Although only the basics of the language made sense to me, I got a kick out of painstakingly, manually typing in long programs that did cool things from my subscription to [Antic Magazine](https://www.atarimagazines.com/antic/):
 
-<img src="images/antic.jpg" width="100%"> *My Antic magazine, 1986*
+<kbd><img src="images/antic.jpg" width="100%"> *My Antic magazine, 1986*</kbd>
 &nbsp;  
 &nbsp; 
 
 But what I really wanted to write was an interactive program like Zork, but where I could chat with it, and it would be able to hold an intelligent conversation with me.  In other words, it has always been my dream to have [artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence) on my Atari.  This goal was especially inspired by movies such as [War Games](https://www.imdb.com/title/tt0086567/):
 
-<img src="images/war-games.png" width="100%"/>*War Games Movie - 1983*
+<kbd><img src="images/war-games.png" width="100%"/>*War Games Movie - 1983*</kbd>
 <br/><br/>
 
 Fast forward about 40 years…
@@ -43,11 +43,11 @@ When I opened the box, and fired it up (at least the thing powered on), I quickl
 
 I proceeded to take apart the computer, and one-by-one de-soldered each key, disassembled the mechanisms in each one, cleaned the contacts, put the key back together, and soldered the whole keyboard back together.  Thanks to [this great video](https://www.youtube.com/watch?v=qaxfMWPJzBQ), I was really about to understand the process of keyboard restoration.
 
-<img src="images/opened.jpg" width="100%"/>*The TRS-80, opened up*
+<kbd><img src="images/opened.jpg" width="100%"/>*The TRS-80, opened up*</kbd>
 <br/><br/>
-<img src="images/keyboard-top-down-view.jpg" width="100%"/>*a top-down view of the keyboard*
+<kbd><img src="images/keyboard-top-down-view.jpg" width="100%"/>*a top-down view of the keyboard*</kbd>
 <br/><br/>
-<img src="images/removing-keyboard-cover.jpg" width="100%"/>*disassembling the keyboard*
+<kbd><img src="images/removing-keyboard-cover.jpg" width="100%"/>*disassembling the keyboard*</kbd>
 <br/><br/>
 <img src="images/cleaning-a-key.jpg" width="100%"/>*cleaning a key*
 <br/><br/>
