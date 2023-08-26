@@ -49,6 +49,8 @@ I proceeded to take apart the computer, and one-by-one de-soldered each key, dis
 <br/><br/>
 <kbd><img src="images/removing-keyboard-cover.jpeg" width="100%"/>disassembling the keyboard</kbd>
 <br/><br/>
+<kbd><img src="images/keys-off.jpeg" width="100%"/>keys off</kbd>
+<br/><br/>
 <kbd><img src="images/cleaning-a-key.jpeg" width="100%"/>cleaning a key</kbd>
 <br/><br/>
 <kbd><img src="images/keyboard-contact.jpeg" width="100%"/>close-up view of a key contact</kbd>
