@@ -115,27 +115,6 @@ OPENAI_MODEL = "gpt-3.5-turbo"
 openai.api_key = "<REDACTED>"
 conversation = []
 
-def do_open_ai_query(chat_input):
-    try:
-
-        # Make a call to the OpenAI API to get the chat GPT response
-        completion = openai.ChatCompletion.create(
-            model=OPENAI_MODEL,
-            messages=[
-                {
-                    "role": "user",
-                    "content":  chat_input
-                }
-            ])
-
-        return completion.choices[0].message.content
-
-    except Exception as e:
-        return {
-            'statusCode': 500,
-            'body': json.dumps({'error': str(e)})
-        }
-
 def chat_with_gpt3(messages):
     response = openai.ChatCompletion.create(
         model=OPENAI_MODEL,
@@ -174,6 +153,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 ```
 
 Soon, I had my first successful communication with ChatGPT:
