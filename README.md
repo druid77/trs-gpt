@@ -196,8 +196,9 @@ https://github.com/druid77/trs-gpt/blob/main/TRSGPT.BAS
 1040 RETURN
 ```
 
-For the server side (AWS EC2 Python Server), I wrote a [simple program like this](https://github.com/druid77/trs-gpt/blob/main/server.py "server-side python program"):
-```
+### For the server side (AWS EC2 Python Server), I wrote a simple program like this:
+https://github.com/druid77/trs-gpt/blob/main/server.py
+```python
 import socket
 import os
 import json
