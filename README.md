@@ -98,7 +98,8 @@ After getting the lambda working and tested, I was very happy, until I realized 
 <br/><br/>
 
 ### TRSGPT.BAS (the client-side program):
-https://github.com/druid77/trs-gpt/blob/main/TRSGPT.BAS
+[https://github.com/druid77/trs-gpt/blob/main/TRSGPT.BAS](https://github.com/druid77/trs-gpt/blob/main/TRSGPT.BAS)
+
 ```BASIC
 5 PRINT "Running network program..."
 10 REM whois
@@ -177,7 +178,8 @@ https://github.com/druid77/trs-gpt/blob/main/TRSGPT.BAS
 ```
 
 ### For the server side (AWS EC2 Python Server), I wrote a simple program like this:
-https://github.com/druid77/trs-gpt/blob/main/server.py
+[https://github.com/druid77/trs-gpt/blob/main/server.py](https://github.com/druid77/trs-gpt/blob/main/server.py)
+
 ```python
 import socket
 import os
