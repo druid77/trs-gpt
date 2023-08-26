@@ -20,13 +20,13 @@ As I played games, I became curious about how they were made, and I discovered t
 <br/><br/>
 Although only the basics of the language made sense to me, I got a kick out of painstakingly, manually typing in long programs that did cool things from my subscription to [Antic Magazine](https://www.atarimagazines.com/antic/):
 
-<kbd><img src="images/antic.jpg" width="100%"> *My Antic magazine, 1986*</kbd>
+<kbd><img src="images/antic.jpg" width="100%">My Antic magazine, 1986</kbd>
 &nbsp;  
 &nbsp; 
 
 But what I really wanted to write was an interactive program like Zork, but where I could chat with it, and it would be able to hold an intelligent conversation with me.  In other words, it has always been my dream to have [artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence) on my Atari.  This goal was especially inspired by movies such as [War Games](https://www.imdb.com/title/tt0086567/):
 
-<kbd><img src="images/war-games.png" width="100%"/>*War Games Movie - 1983*</kbd>
+<kbd><img src="images/war-games.png" width="100%"/>War Games Movie - 1983</kbd>
 <br/><br/>
 
 Fast forward about 40 years…
@@ -43,32 +43,32 @@ When I opened the box, and fired it up (at least the thing powered on), I quickl
 
 I proceeded to take apart the computer, and one-by-one de-soldered each key, disassembled the mechanisms in each one, cleaned the contacts, put the key back together, and soldered the whole keyboard back together.  Thanks to [this great video](https://www.youtube.com/watch?v=qaxfMWPJzBQ), I was really about to understand the process of keyboard restoration.
 
-<kbd><img src="images/opened.jpg" width="100%"/>*The TRS-80, opened up*</kbd>
+<kbd><img src="images/opened.jpg" width="100%"/>The TRS-80, opened up</kbd>
 <br/><br/>
-<kbd><img src="images/keyboard-top-down-view.jpg" width="100%"/>*a top-down view of the keyboard*</kbd>
+<kbd><img src="images/keyboard-top-down-view.jpg" width="100%"/>a top-down view of the keyboard</kbd>
 <br/><br/>
-<kbd><img src="images/removing-keyboard-cover.jpg" width="100%"/>*disassembling the keyboard*</kbd>
+<kbd><img src="images/removing-keyboard-cover.jpg" width="100%"/>disassembling the keyboard</kbd>
 <br/><br/>
-<img src="images/cleaning-a-key.jpg" width="100%"/>*cleaning a key*
+<kbd><img src="images/cleaning-a-key.jpg" width="100%"/>cleaning a key</kbd>
 <br/><br/>
-<img src="images/keyboard-contact.jpg" width="100%"/>*close-up view of a key contact*
+<kbd><img src="images/keyboard-contact.jpg" width="100%"/>close-up view of a key contact</kbd>
 <br/><br/>
-<img src="images/soldering.jpg" width="100%"/>*soldering the keyboard back together*
+<kbd><img src="images/soldering.jpg" width="100%"/>soldering the keyboard back together</kbd>
 <br/><br/>
 
 After this, I had a working, beautiful TRS-80, with fully-functional keys!
 
-<img src="images/restoration-complete.jpg" width="100%"/>*shiny, brand-new, restored TRS-80 Model III!*
+<kbd><img src="images/restoration-complete.jpg" width="100%"/>shiny, brand-new, restored TRS-80 Model III!</kbd>
 <br/><br/>
 
 Then I realized that I didn’t even have a hard drive to store BASIC programs (or anything) on.  Should I track down and buy a TRS-80 floppy drive from someone on Ebay?  No, this is 2023, and I wanted to follow a more modern approach!  I did some searches online, and found Ian Mavric, the “Australian TRS-80 Recycler”, and figured out I could get a FreHD module, which essentially allows one to plug an external board with a microSD card, into the serial ribbon cable input on the back of the TRS-80, which would emulate a hard drive.  Ian was selling the the “FreHD Clearly Superior Kit for M3/4”, which supposedly worked for my needs.  It was “clearly superior”, so it had to be the right choice for me.   I ordered the kit, and set it up, which also involved replacing a certain ROM chip.
 
-<img src="images/fred-clearly.jpg" width="100%"/>*FreHD Clearly Superior Kit for M3/4!*
+<kbd><img src="images/fred-clearly.jpg" width="100%"/>FreHD Clearly Superior Kit for M3/4!</kbd>
 <br/><br/>
 
 Ian was really helpful, and after a few emails with him, and determining that my system actually had the needed 48K of RAM, I hooked it up!
 I was now able to play games like Microchess 1.5 (copyright 1978)
-<img src="images/chess2.jpg" width="100%"/>*Microchess 1.5 (copyright 1978)*
+<kbd><img src="images/chess2.jpg" width="100%"/>Microchess 1.5 (copyright 1978)</kbd>
 <br/><br/>
 <img src="images/playing-panic.jpg" width="100%"/>*Apple Panic, the game*
 <br/><br/>
