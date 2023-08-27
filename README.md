@@ -31,7 +31,7 @@ But what I really wanted to write was an interactive program like Zork, but wher
 
 Fast forward about 40 years…
 
-I’m now a middle-aged man with multiple degrees, working for NASA JPL.  For all of these years, I've kept alive the childhood dream of interacting (chatting) with the computer in an intelligent way.
+I’m now a middle-aged man, and for all of these years, I've kept alive the childhood dream of interacting (chatting) with the computer in an intelligent way.
 
 This year, 2023, two things happened, that allowed me to “close the loop” on my childhood dream:
 - **Something called [ChatGPT](https://openai.com/blog/chatgpt) became a thing**
